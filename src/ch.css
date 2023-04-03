@@ -1,0 +1,22 @@
+.set_photo{
+
+    border-radius: 50%;
+    object-fit: fill;
+    padding: 10px;
+    height: 70px;
+    margin-right: 20px;
+}
+.chat{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.chat_detail{
+    flex: 1;
+}
+.chat_detail>p{
+    color: gray;
+}
+.chat_timestamp{
+    color: lightgray;
+}
